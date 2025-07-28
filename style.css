@@ -1,0 +1,134 @@
+/* color palette 
+rgb(34, 40, 49)
+rgb(57, 62, 70)
+rgb(0, 173, 181)
+rgb(238, 238, 238)
+*/
+* {
+    font-family: Helvetica, sans-serif, Arial;
+}
+html {
+    background-color: rgb(34, 40, 49);
+}
+h1 {
+    color: rgb(238, 238, 238);
+    font-size: 50px;
+    font-weight: 500px;      
+}
+h2, h3, h4 {
+    color: rgb(238, 238, 238);
+}
+a.links{
+    color: rgb(206, 237, 3);
+}
+a.links:hover{
+    color: rgb(0, 173, 181);    
+}
+
+
+.Highlight-images{
+    text-align: center; 
+    padding-bottom: 20px;   
+}
+.Summary > h2 {
+    display: flex;
+    justify-content: center;
+}
+.Contact-link:hover{
+    color: rgb(0, 173, 181);    
+}
+.Contacts{
+    background-color: blueviolet;    
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+    margin: 10px; 
+       
+}
+.Contact-link {
+    text-decoration: none;
+    color:rgb(238, 238, 238);
+    transition: color 0.3s;  
+}
+
+
+/* Skills */
+
+.skills-list {
+    display: flex;    
+    flex-wrap: wrap; 
+    justify-content: center;   
+    gap: 30px;
+    padding: 20px;   
+}
+
+.skills-list > div {
+    background-color: black;
+    display: flex;
+    flex-direction: column;  
+    width: 200px;
+    height: 250px;
+}
+.skills-list h3 {    
+    text-align: center;
+}
+.skills-list li {
+    align-items: center;
+    color: aliceblue;
+}
+
+.Frontend {    
+    /* position : relative;
+    top: 10px;
+    margin-left: 5px;     */
+}
+.Frontend ul{
+    /* padding-left: 20px;
+    margin-top: 10px;
+    margin-left: -20px;
+} */
+/* .Frontend ul li { */
+    /* text-align: left; */
+    /* list-style-position: inside;
+    color: aliceblue;
+    margin: 5px; */
+}
+.Backend {
+    /* position : relative; */
+    /* top: -35px; */
+    /* left: 150px; */
+}
+.Languages {    
+    /* top: -135px; */
+    /* left: 300px; */
+}
+.Database {
+    /* background-color: black;     */
+    /* top: -135px; */
+    /* left: 450px; */
+}
+.Dev-Tools {
+    /* background-color: black;     */
+    /* top: -135px; */
+    /* left: 600px; */
+}
+
+
+.Projects {
+    position: relative;    
+}
+
+
+.Education > .Degree {
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+.Education > .University {
+    font-size: 20px ;
+}
+footer > p {
+    display: flex;
+    justify-content: center;
+}
