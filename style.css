@@ -4,16 +4,22 @@ rgb(57, 62, 70)
 rgb(0, 173, 181)
 rgb(238, 238, 238)
 */
+/* General styling */
 * {
     font-family: Helvetica, sans-serif, Arial;
 }
 html {
     background-color: rgb(34, 40, 49);
 }
+
+/* Title and summary */
+
 h1 {
+    text-align: center;
     color: rgb(238, 238, 238);
-    font-size: 50px;
-    font-weight: 500px;      
+    font-size: 40px;
+    font-weight: 500px;
+    text-transform: uppercase;      
 }
 h2, h3, h4 {
     color: rgb(238, 238, 238);
@@ -23,6 +29,9 @@ a.links{
 }
 a.links:hover{
     color: rgb(0, 173, 181);    
+}
+.portfolio {
+    color: rgb(0, 173, 181);
 }
 
 
@@ -39,11 +48,12 @@ a.links:hover{
 }
 .Contacts{
     background-color: blueviolet;    
-    display: flex;
+    display: flex;    
     justify-content: center;
+    height: 50px;
     gap: 200px;
     flex-wrap: wrap;
-    margin: 10px; 
+    margin-top: 20px; 
        
 }
 .Contact-link {
@@ -71,7 +81,7 @@ a.links:hover{
     height: 250px;
 }
 .skills-list h3 {    
-    text-align: center;
+    text-align: center;    
 }
 .skills-list li {
     align-items: center;
@@ -122,8 +132,12 @@ a.links:hover{
 
 .Education > .Degree {
     font-size: 20px;
-    font-weight: 400px;
-
+    font-weight: 400px;   
+    font-weight: 600; 
+}
+.Degree a:link, .University{
+    color: rgb(0, 173, 181);
+    text-decoration: none;    
 }
 .Education > .University {
     font-size: 20px ;
